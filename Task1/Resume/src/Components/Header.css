@@ -1,0 +1,22 @@
+.main
+{
+    height:180px;
+    margin: 0;
+    background-color: lightskyblue;
+    
+}
+h1{
+    font-size: 60px;
+    font-style: italic;
+    margin-top: 0px;
+    margin-left: 80px;
+    position: relative;
+    top: 30px;
+    /* color: whitesmoke;*/
+}
+h2{
+    margin-left: 80px;
+    font-style: italic;
+    font-size: 30px;
+}
+

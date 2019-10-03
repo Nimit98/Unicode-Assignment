@@ -1,0 +1,72 @@
+body{
+   background-color: dimgray;
+}
+
+#head{
+    font-size: 60px;
+    text-align: center;
+    border-bottom: black 3px solid;
+    padding:5px;
+    margin-bottom: 50px;
+}
+#addTask{
+    font-size: 35px;
+    margin-left: 400px;
+    border-radius:10px;
+    background-color: whitesmoke;
+}
+#submitBtn{
+    font-size: 35px;
+    background-color: lime;
+    border-radius: 8px;
+    
+}
+#task-list{
+    font-size: 35px;
+    margin-left: 200px;
+    margin-top: 70px;
+    width:1000px;
+}
+#task-list li:nth-child(odd){
+    background-color: cornsilk;
+}
+#task-list li:nth-child(even){
+    background-color: whitesmoke;
+}
+.list-group{
+    margin:10px;
+    padding:5px;
+    
+}
+.delBtn{
+    float:right;
+    font-size: 30px;
+    background-color: red;
+    color:white;
+    border-radius: 50px;
+}
+
+h2{
+    margin-left: 250px;
+    text-decoration: underline;
+    text-decoration-color: lime;
+    font-size: 30px;
+    
+}
+#complete li{
+    text-decoration: line-through;
+    margin: 10x;
+    padding:10px;
+}
+#complete li:nth-child(odd){
+    background-color:cornsilk;
+}
+#complete li:nth-child(even){
+    background-color: whitesmoke;
+}
+#complete{
+    
+    font-size: 30px;
+    margin-left: 200px;
+    width:1000px;
+}
