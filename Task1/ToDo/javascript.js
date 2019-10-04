@@ -33,18 +33,7 @@ document.getElementById('task-list').onclick = function(e){
         var ul = document.getElementById('complete');
         ul.appendChild(taskDone);
       
-        /*if(i==0){
-        var checkBtn = document.createElement('button');
-        checkBtn.className = 'checkBtn';
-        checkBtn.appendChild(document.createTextNode('Done'));
-        li.appendChild(checkBtn);
-        i=1;
-        }
-
-        else{
-            checkBtn = document.getElementsByClassName('checkBtn');
-            li.removeChild(checkBtn);
-        }*/
+        
     }
 }
 // UNDO
