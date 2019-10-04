@@ -31,9 +31,7 @@ document.getElementById('task-list').onclick = function(e){
         var taskDone = e.target;
         taskList.removeChild(taskDone);
         var ul = document.getElementById('complete');
-        ul.appendChild(taskDone);
-      
-        
+        ul.appendChild(taskDone); 
     }
 }
 // UNDO
@@ -44,8 +42,6 @@ document.getElementById('complete').onclick = function(e){
         var undo = e.target;
         taskList.appendChild(undo);
         completed.removeChild(undo);
-        
-
 }
 
     
