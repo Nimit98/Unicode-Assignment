@@ -1,0 +1,30 @@
+.form-group{
+    width: 200px;
+}
+.main{
+    border: 2px solid lightgrey;
+    padding: 20px;
+   width: 300px;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    left: 550px;
+}
+.contain{
+    background-color: azure;
+    margin: 0;
+    height: 750px;
+    width: 100%;
+}
+#info{
+    visibility: hidden;
+    position: absolute;
+    left: 450px;
+    top: 200px;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+    padding: 10px;
+}
