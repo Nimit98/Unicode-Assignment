@@ -1,0 +1,16 @@
+#dishName{
+    width: 1000px;
+    
+}
+.row :hover{
+    font-size: 25px;
+}
+.row{
+    font-size: 20px;
+}
+.contain{
+    margin-left: 80px;
+}
+#items{
+    background-image: url('food.jpg');
+}
