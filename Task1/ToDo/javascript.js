@@ -2,8 +2,9 @@ var taskList = document.getElementById('task-list');
 
 // Adding New Task
 
-function newElement()
+document.getElementById('submitBtn').onclick = function(e)
 {
+    e.preventDefault()
     var newTask = document.getElementById('addTask').value;
     var li = document.createElement('li');
     li.className='list-group';
@@ -14,8 +15,7 @@ function newElement()
     var trash = document.createTextNode('X'); // trash &#128465;
     delBtn.appendChild(trash);
     li.appendChild(delBtn);
-    taskList.appendChild(li);
-    
+    taskList.appendChild(li); 
 }
 // Remove Task And Adding Completed Task
 
