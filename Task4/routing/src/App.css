@@ -1,0 +1,19 @@
+#task{
+  color: white;
+}
+
+#nav{
+  background-color: black;
+}
+.task-list li{
+  padding: 5px;
+  text-decoration: none;
+  list-style: none;
+}
+.Mains{
+  color: white;
+  font-size: 25px;
+}
+.tasks{
+  margin-left: 20px;
+}

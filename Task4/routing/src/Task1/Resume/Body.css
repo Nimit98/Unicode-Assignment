@@ -1,0 +1,47 @@
+.body{
+    background-color: lightcyan;
+    height: 1500px;
+}
+.pic{
+    margin-left: 30px;
+    position: relative;
+    top: 30px;
+    float: left;
+    margin-top: 0;
+}
+
+#list1{
+    font-size: 30px;
+    float: left;
+    margin-top: 0;
+    position: relative;
+    left: 250px;
+}
+#list2{
+    font-size: 30px;
+    margin-top: 0;
+    position: relative;
+    left: 450px;
+}
+.items{
+    position: relative;
+    top: 30px;
+    
+    padding: 10px;
+    
+}
+.skill{
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+    left: 450px;
+}
+#educ, #hobbies{
+    border-top: black 2px solid;
+}
+.hobby{
+    font-size: 35px;
+    padding: 5px;
+    margin-left: 80px;
+}

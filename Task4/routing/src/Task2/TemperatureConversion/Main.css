@@ -1,0 +1,24 @@
+.main-temp{
+    background-image: url('temp.jpg');
+    height: 800px;
+}
+.container{
+    position: relative;
+    top: 200px;
+    left: 0px;
+}
+.form-control{
+    width: 300px;
+}
+.btn{
+    margin: 5px;
+}
+#fahoutput, #keloutput{
+    background-color: deepskyblue;
+    width: 220px;
+    visibility: hidden;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+}
